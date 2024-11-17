@@ -322,14 +322,14 @@ p{
 }
 
 .card-text {
-    padding: 32px 0 8px;
+    padding: 32px 0;
 }
 .social-link-list{
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
-
+    padding-top: 8px;
+    
 }
 
 /* #endregion */
