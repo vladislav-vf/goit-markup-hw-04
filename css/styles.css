@@ -68,14 +68,16 @@ p{
     border-radius:50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
-.social-link-icon{
-    width: 40px;
-    height: 40px;
-    
-}
+
 .link-social:hover,
 .link-social:focus {
     background-color: #404bbf;
+}
+.social-link-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 8px;
 }
 /* #region header */
 .logo {
@@ -333,14 +335,11 @@ p{
 .card-text {
     padding: 32px 0;
 }
-.social-link-list{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding-top: 8px;
-    
-}
 
+.social-icon-team{
+    width: 40px;
+    height: 40px;
+}
 /* #endregion */
 
 /* #region section 4  */
@@ -412,5 +411,8 @@ p{
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+}
+.footer-icon{
+    gap: 16px;
 }
 /* #endregion */
