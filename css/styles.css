@@ -51,6 +51,8 @@ p{
 .icon-feature{
     width: 64px;
     height: 64px;
+    align-items: center;
+    justify-content: center;
 
 }
 .icon-soc:hover{
